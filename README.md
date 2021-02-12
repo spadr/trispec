@@ -28,5 +28,5 @@ data = [ 410nm_value,
          940nm_value,
          Measuring temperature]
          
-calibration_values = trispec.calibration(data) #return Standard values(20℃, ISO 1)
+calibration_values = trispec.calibration(data) #return Standard values(293.15K, ISO 1)
 ```
