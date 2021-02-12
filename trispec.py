@@ -1,4 +1,3 @@
-
 import math
 
 def calibration(data, SRT = 20.):
