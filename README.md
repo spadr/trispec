@@ -7,6 +7,7 @@ https://www.sparkfun.com/products/15050
 # Usage
 ```
 import trispec
+
 data = [ 410nm_value,
          435nm_value,
          460nm_value,
@@ -26,5 +27,6 @@ data = [ 410nm_value,
          900nm_value,
          940nm_value,
          Measuring temperature]
+         
 calibration_values = trispec.calibration(data) #return Calibrated values(20℃, ISO 1)
 ```
