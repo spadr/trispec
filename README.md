@@ -27,7 +27,7 @@ data = [ 410nm_value,
          900nm_value,
          940nm_value,
          Measuring temperature(Celsius) ] 
-         #All values are float and Optical spectrum is gotten by ".getCalibratedXX" commands.
+         #All values are float and Optical spectrum was gotten by ".getCalibratedXX" commands.
          
 calibration_values = trispec.calibration(data) #return Standard values(293.15K, ISO 1)
 ```
