@@ -1,10 +1,10 @@
 # trispec.py
 Calibration for SparkFun Triad Spectroscopy Sensor Development Board by temperature 
 
-# Hardware
+## Hardware
 https://www.sparkfun.com/products/15050
 
-# Usage
+## Usage
 ```
 import trispec
 
