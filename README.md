@@ -26,7 +26,8 @@ data = [ 410nm_value,
          860nm_value,
          900nm_value,
          940nm_value,
-         Measuring temperature(Celsius) ] #All values are float
+         Measuring temperature(Celsius) ] 
+         #All values are float and OS_value is gotten by ".getCalibratedXX" commands.
          
 calibration_values = trispec.calibration(data) #return Standard values(293.15K, ISO 1)
 ```
