@@ -1,5 +1,6 @@
 import math
 
+
 def calibration(data, SRT = 20.):
     MT = data[-1]#Measuring temperature
     OS = data[0:-1]#Optical spectrum
